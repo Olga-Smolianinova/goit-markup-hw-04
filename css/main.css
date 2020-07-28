@@ -1,6 +1,3 @@
-/*секция Преимущества  внимание к деталям - hover */
-/* Контакты hover +focus */
-
 /* основной color: #212121; секции*/
 /* вторичный color: #757575; абзацы */
 /* белый color: #FFFFFF; h1, футер, чем мы занимаемся */
@@ -144,6 +141,23 @@ img {
 
 /* Hero section 1 */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 5px solid blue;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/header.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
 }
 .hero-title {
@@ -152,7 +166,6 @@ img {
   /* outline: 2px solid teal; */
 
   color: var(--white-color);
-  background-color: rgba(47, 48, 58, 0.8);
 
   font-weight: 900;
   font-size: 44px;
