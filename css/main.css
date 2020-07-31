@@ -145,7 +145,7 @@ img {
 .contacts-icons {
   margin-right: 10px;
   fill: var(--primary-text-color);
-  background-color: indigo;
+  /* background-color: indigo; */
 }
 .contacts-icons:hover {
   fill: var(--accent-color);
@@ -261,7 +261,7 @@ img {
 .features-icons {
   width: 70px;
   height: 70px;
-  background-color: salmon;
+  /* background-color: salmon; */
 }
 /* Иконки через background-image */
 /* .features-items::before {
