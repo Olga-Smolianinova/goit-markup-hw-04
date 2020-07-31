@@ -10,6 +10,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
 html {
   box-sizing: border-box;
@@ -117,11 +118,12 @@ img {
 .contacts-nav {
   display: flex;
   margin-left: auto;
+  outline: 2px solid gold;
 }
 .contacts-nav .item + .item {
   margin-left: 50px;
 }
-.contacts-nav a {
+.contacts-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -134,9 +136,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.contacts-nav a:hover,
-.contacts-nav a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 /* Hero section 1 */
@@ -226,10 +229,35 @@ img {
 .features-items {
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
-  /* outline: 2px solid crimson; */
+  outline: 2px solid crimson;
 }
 .features-items:nth-child(4n) {
   margin-right: 0;
+}
+.features-items::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: var(--secondary-background-color);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 2px solid green;
+}
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 .is-hidden {
   display: none;
@@ -265,7 +293,7 @@ img {
 }
 /* Team section 4 */
 .color {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 .team {
   display: flex;
@@ -399,7 +427,7 @@ img {
   border: 1px solid transparent;
 
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 
   font-weight: 500;
   font-size: 16px;
