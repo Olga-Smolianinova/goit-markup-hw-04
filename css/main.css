@@ -369,11 +369,11 @@ img {
 .social-icons {
   width: 20px;
   height: 20px;
-  fill: currentColor;
-  outline: 2px solid black;
+  fill: #afb1b8;
 }
 .social-icons:hover {
   fill: var(--white-color);
+  outline: 2px solid yellow;
 }
 
 /* Clients section 5 */
@@ -399,7 +399,7 @@ img {
   border-radius: 4px;
 }
 .clients-icons {
-  fill: currentColor;
+  fill: #afb1b8;
   outline: 2px solid black;
 }
 .clients-icons:hover {
