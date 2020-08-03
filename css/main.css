@@ -270,9 +270,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-
   background-color: var(--secondary-background-color);
-
   background-repeat: no-repeat;
   background-position: center;
   outline: 2px solid green;
@@ -388,6 +386,19 @@ img {
 .clients-element:nth-child(6n) {
   margin-right: 0;
 }
+.clients-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-icons {
+  fill: #afb1b8;
+  outline: 2px solid black;
+}
 
 /* FOOTER general */
 .footer {
@@ -448,15 +459,16 @@ img {
 }
 .footer-link {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
-.footer-links {
+.footer-ref {
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
   width: 44px;
   height: 44px;
+  margin-right: 10px;
   border-radius: 50%;
   outline: 2px solid fuchsia;
 
@@ -476,6 +488,10 @@ img {
 .subscription {
   width: 570px;
   /* outline: 2px solid palevioletred; */
+}
+.sub-icon {
+  margin-left: 10px;
+  outline: 2px solid black;
 }
 
 /* ПОРТФОЛИО */
