@@ -369,11 +369,11 @@ img {
 .social-icons {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
   outline: 2px solid black;
 }
 .social-icons:hover {
-  color: var(--white-color);
+  fill: var(--white-color);
 }
 
 /* Clients section 5 */
@@ -399,11 +399,16 @@ img {
   border-radius: 4px;
 }
 .clients-icons {
-  fill: #afb1b8;
+  fill: currentColor;
   outline: 2px solid black;
 }
-.clients-link:hover {
+.clients-icons:hover {
   fill: var(--accent-color);
+  outline: 1px solid pink;
+}
+.clients-link:hover {
+  border: 1px solid var(--accent-color);
+  outline: 1px solid pink;
 }
 
 /* FOOTER general */
