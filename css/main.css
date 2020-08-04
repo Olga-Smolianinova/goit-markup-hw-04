@@ -353,7 +353,7 @@ img {
   text-align: center;
   margin: 30px 24px 24px 32px;
 }
-.social-links {
+.team-ref {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -366,11 +366,11 @@ img {
 
   /* outline: 2px solid fuchsia; */
 }
-.social-links:hover {
+.team-ref:hover {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-.social-icons {
+.team-icons {
   width: 20px;
   height: 20px;
   fill: currentColor;
