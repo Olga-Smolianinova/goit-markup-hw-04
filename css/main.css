@@ -321,6 +321,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
+  background-color: var(--white-color);
   /* outline: 4px solid yellow; */
 }
 .team-element:nth-child(4n) {
@@ -363,7 +364,7 @@ img {
   color: #afb1b8;
   background-color: var(--white-color);
 
-  outline: 2px solid fuchsia;
+  /* outline: 2px solid fuchsia; */
 }
 .social-links:hover {
   color: var(--white-color);
@@ -404,7 +405,7 @@ img {
 }
 .clients-icons {
   fill: currentColor;
-  outline: 2px solid black;
+  /* outline: 2px solid black; */
 }
 .clients-icons:hover {
   /* fill: var(--accent-color); */
