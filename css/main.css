@@ -375,10 +375,6 @@ img {
   height: 20px;
   fill: currentColor;
 }
-.social-icons:hover {
-  fill: var(--white-color);
-  outline: 2px solid yellow;
-}
 
 /* Clients section 5 */
 .clients {
@@ -487,6 +483,8 @@ img {
   height: 44px;
   margin-right: 10px;
   border-radius: 50%;
+
+  color: var(--white-color);
   /* outline: 2px solid fuchsia; */
 
   background-color: rgba(255, 255, 255, 0.1);
@@ -497,7 +495,7 @@ img {
 .footer-icons {
   width: 20px;
   height: 20px;
-  fill: var(--white-color);
+  fill: currentColor;
   /* outline: 2px solid black; */
 }
 
