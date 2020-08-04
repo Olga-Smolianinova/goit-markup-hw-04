@@ -360,16 +360,19 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: #afb1b8;
+  background-color: var(--white-color);
 
   outline: 2px solid fuchsia;
 }
 .social-links:hover {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 .social-icons {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .social-icons:hover {
   fill: var(--white-color);
