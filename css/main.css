@@ -145,6 +145,7 @@ img {
 .contacts-icons {
   margin-right: 10px;
   fill: var(--primary-text-color);
+  vertical-align: middle;
   /* background-color: indigo; */
 }
 .contacts-icons:hover {
