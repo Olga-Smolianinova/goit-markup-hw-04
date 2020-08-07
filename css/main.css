@@ -404,10 +404,10 @@ img {
   fill: currentColor;
   /* outline: 2px solid black; */
 }
-.clients-icons:hover {
-  /* fill: var(--accent-color); */
-  /* outline: 1px solid pink; */
-}
+/* .clients-icons:hover { */
+/* fill: var(--accent-color); */
+/* outline: 1px solid pink; */
+
 .clients-link:hover {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
